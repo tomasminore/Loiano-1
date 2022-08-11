@@ -1,0 +1,33 @@
+footer {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    .horario {
+        font-size: 30px;
+        font-family: $tipografia1;
+        font-weight: bolder;
+        color: white;
+    }
+
+    $redes: (
+        link1: rgb(54, 222, 54),
+        link2: rgb(255, 130, 84),
+        link3: rgb(84, 175, 221),
+        link4: rgb(179, 50, 50),
+    );
+
+@each $link,
+$color in $redes {
+    .links--#{$link} {
+        font-size: 50px;
+        padding: 15px;
+        color: white;
+    }
+
+    .links--#{$link}:hover {
+        color: $color;
+    }
+}
+}

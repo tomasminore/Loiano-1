@@ -1,0 +1,476 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fuentes {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 38, 128);
+}
+
+#loiano {
+  color: red;
+  text-shadow: -2px 2px 5px white;
+  font-size: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 100px;
+  font-style: italic;
+}
+
+header {
+  display: grid;
+  padding-bottom: 10px;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 1fr;
+  background-image: url(../../images/abstracto/abstract-background-luxury-cloth-or-liquid-wave-or-wavy-folds-of-grunge-silk-texture.jpg);
+  background-position: right;
+  border-bottom: 2px solid red;
+}
+header .loiano {
+  color: red;
+  text-shadow: -2px 2px 5px white;
+  font-size: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 100px;
+  font-style: italic;
+}
+header .subtitulo {
+  font-size: 50px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 100px;
+  font-style: italic;
+  text-shadow: -2px 2px 5px rgb(227, 227, 227);
+}
+header .menu {
+  display: none;
+  font-size: 50px;
+  color: #d7d7d7;
+}
+header .barra {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+}
+header nav ul li {
+  list-style: none;
+  padding: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #d7d7d7;
+}
+header nav ul li a:hover {
+  color: rgb(201, 49, 49);
+  transition: all 0.3s;
+  text-shadow: 0px 0px 5px rgb(254, 254, 254);
+}
+
+.nosotros {
+  padding: 60px;
+  background-image: url(../../../images/abstracto/historia1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 720px;
+}
+
+.historia {
+  font-style: italic;
+  text-align: center;
+  height: 100%;
+  font-size: 34px;
+  padding: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(120, 119, 119);
+  border-radius: 5px;
+  border: 5px solid black;
+  background-color: rgba(0, 0, 0, 0.359);
+  transition: border 2s, color 5s, padding 2s;
+}
+
+.historia:hover {
+  color: white;
+  border: 5px solid red;
+  padding: 3px;
+}
+
+.jumbotron1 {
+  background-image: url(../../../images/abstracto/abstract-background-luxury-cloth-or-liquid-wave-or-wavy-folds-of-grunge-silk-texture.jpg);
+  background-position: right;
+  text-shadow: 5px 5px 5px rgb(19, 6, 196);
+  color: white;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.servicios {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 100px 200px 200px;
+  background-image: linear-gradient(225deg, red 0%, #272627 65%);
+  padding: 20px;
+}
+
+.servicio {
+  grid-row: 2/3;
+  grid-column: 3/6;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  color: #d7d7d7;
+  align-self: center;
+}
+
+.descripcion {
+  grid-row: 3/4;
+  grid-column: 2/7;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.ejemplo {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.sublimacion1 {
+  background-image: url(../../../images/banderas/bandera\ 1.jpg);
+  grid-column: 2/5;
+  grid-row: 1/2;
+}
+
+.sublimacion2 {
+  background-image: url(../../../images/banderas/BAndera\ 2.jpeg);
+  grid-row: 4/5;
+  grid-column: 5/4;
+}
+
+.sublimacion3 {
+  background-image: url(../../../images/banderas/bandera\ 3.jpeg);
+  grid-row: 1/3;
+  grid-column: 7/8;
+}
+
+.sublimacion4 {
+  background-image: url(../../../images/banderas/bandera\ 4.jpeg);
+  grid-row: 1/4;
+  grid-column: 1/2;
+  background-position: -90px;
+}
+
+.sublimacion5 {
+  background-image: url(../../../images/banderas/17264962_1383905514981656_8514349421130715322_n.jpg);
+  grid-row: 4/5;
+  grid-column: 1/2;
+}
+
+.sublimacion6 {
+  background-image: url(../../../images/banderas/17309000_1383905578314983_2267671068201167343_n.jpg);
+  grid-row: 4/5;
+  grid-column: 2/4;
+  background-position: 0 -30px;
+}
+
+.sublimacion7 {
+  background-image: url(../../../images/banderas/17155459_1383905591648315_5139577235520339005_n.jpg);
+  grid-row: 4/5;
+  grid-column: 5/7;
+  background-position: 0px -90px;
+}
+
+.sublimacion8 {
+  background-image: url(../../../images/banderas/17309252_1383905528314988_8277338896790347320_n.jpg);
+  grid-row: 3/5;
+  grid-column: 7/8;
+}
+
+.sublimacion9 {
+  background-image: url(../../../images/banderas/bandera\ 9.jpg);
+  grid-row: 1/2;
+  grid-column: 5/7;
+  background-position: 0px -280px;
+}
+
+.diseño1 {
+  background-image: url(../../../images/diseño/diseño\ 1.jpg);
+  grid-row: 3/5;
+  grid-column: 1/2;
+}
+
+.diseño2 {
+  background-image: url(../../../images/diseño/diseño\ 2.jpg);
+  grid-row: 1/3;
+  grid-column: 1/2;
+}
+
+.diseño3 {
+  background-image: url(../../../images/diseño/diseño\ 3.jpg);
+  grid-row: 1/3;
+  grid-column: 7/8;
+}
+
+.diseño4 {
+  background-image: url(../../../images/diseño/diseño\ 4.jpg);
+  grid-row: 1/2;
+  grid-column: 2/5;
+}
+
+.diseño5 {
+  background-image: url(../../../images/diseño/diseño\ 5.jpg);
+  grid-row: 1/2;
+  grid-column: 5/7;
+}
+
+.diseño6 {
+  background-image: url(../../../images/diseño/diseño\ 6.jpg);
+  grid-row: 4/5;
+  grid-column: 2/4;
+}
+
+.diseño7 {
+  background-image: url(../../../images/diseño/diseño\ 7.jpg);
+  grid-row: 4/5;
+  grid-column: 4/7;
+}
+
+.diseño8 {
+  background-image: url(../../../images/diseño/diseño\ 8.jpg);
+  grid-row: 3/5;
+  grid-column: 7/8;
+}
+
+.corte {
+  grid-template-rows: 100px 200px 200px 200px;
+}
+
+.corte1 {
+  grid-row: 1/2;
+  grid-column: 4/5;
+}
+
+.corte2 {
+  grid-row: 2/3;
+  grid-column: 2/7;
+}
+
+.corte3 {
+  grid-row: 3/5;
+  grid-column: 1/4;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.corte4 {
+  grid-row: 3/5;
+  grid-column: 5/8;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.trabajos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  border-style: double;
+  border-width: 10px;
+  border-color: black;
+  background: linear-gradient(180deg, rgb(203, 203, 203), rgba(132, 127, 127, 0.868));
+  margin-bottom: 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  padding: 10px;
+}
+
+.formulario {
+  padding: 30px;
+  border: 10px red inset;
+  font-size: 40px;
+  background: linear-gradient(180deg, rgb(203, 203, 203), rgba(132, 127, 127, 0.868));
+}
+
+.marco {
+  border: rgb(79, 79, 79) solid 3px;
+}
+
+.campo {
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  width: 100%;
+  background-color: #363535;
+  text-align: center;
+  padding-bottom: 10px;
+}
+footer .horario {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+footer i {
+  font-size: 50px;
+  padding: 15px;
+  color: aliceblue;
+}
+footer .facebook:hover {
+  color: rgb(84, 175, 221);
+}
+footer .map:hover {
+  color: rgb(179, 50, 50);
+}
+footer .whatsapp:hover {
+  color: rgb(54, 222, 54);
+}
+footer .instagram:hover {
+  color: rgb(255, 130, 84);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  header {
+    grid-template-columns: 80% 20%;
+  }
+  .loiano {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  .subtitulo {
+    width: 200px;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .menu {
+    display: flex;
+    padding-top: 15px;
+    font-size: 40px;
+  }
+  .barra {
+    display: none;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 15px;
+  }
+  .nosotros {
+    padding: 20px;
+    background-image: url(images/abstracto/historia2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .historia {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 30px 120px 100px;
+  }
+  .servicio {
+    grid-row: 2/3;
+    grid-column: 2/5;
+    font-size: 25px;
+  }
+  .descripcion {
+    grid-row: 3/4;
+    grid-column: 2/5;
+    font-size: 10px;
+  }
+  .ejemplo {
+    background-position: center;
+    background-size: cover;
+    margin: 5px;
+  }
+  .sublimacion1 {
+    grid-column: 2/4;
+  }
+  .sublimacion2 {
+    grid-column: 5/4;
+  }
+  .sublimacion3 {
+    grid-column: 5/6;
+    grid-row: 1/3;
+  }
+  .sublimacion4 {
+    grid-column: 1/2;
+    background-position: -70px;
+  }
+  .sublimacion5 {
+    grid-column: 1/2;
+  }
+  .sublimacion6 {
+    grid-column: 2/4;
+  }
+  .sublimacion7 {
+    display: none;
+  }
+  .sublimacion8 {
+    grid-column: 5/6;
+  }
+  .sublimacion9 {
+    grid-column: 4/5;
+  }
+  .diseño3 {
+    display: none;
+  }
+  .diseño4 {
+    grid-column: 2/4;
+  }
+  .diseño5 {
+    grid-column: 4/6;
+  }
+  .diseño7 {
+    grid-column: 4/6;
+  }
+  .diseño8 {
+    grid-row: 2/4;
+    grid-column: 5/6;
+  }
+  .corte {
+    grid-template-rows: 30px 90px 80px;
+    grid-template-columns: repeat(7fr);
+  }
+  .corte1 {
+    grid-row: 1/2;
+  }
+  .corte2 {
+    grid-row: 2/3;
+    grid-column: 1/7;
+  }
+  .corte3 {
+    grid-row: 3/4;
+    grid-column: 1/3;
+  }
+  .corte4 {
+    grid-row: 3/4;
+    grid-column: 4/6;
+  }
+  .horario {
+    font-size: 15px;
+  }
+  footer i {
+    font-size: 25px;
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=css.map */

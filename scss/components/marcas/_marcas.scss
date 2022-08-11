@@ -1,0 +1,32 @@
+.clientes {
+    width: 100%;
+    background-color: rgb(198, 198, 198);
+    box-shadow: 0 0 15px white;
+    margin-bottom: 50px;
+}
+
+.titulo1 {
+    text-align: center;
+    font-family: $tipografia2;
+    font-size: 50px;
+    width: 100%;
+    padding: 50px;
+}
+
+.marcas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.logo {
+    height: 250px;
+    width: 350px;
+    margin: 25px;
+    box-shadow: 0 0 10px black;
+}
+
+.tigre {
+    width: 700px;
+}

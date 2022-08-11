@@ -1,0 +1,70 @@
+body {
+    section {
+        .inicio {
+            display: flex;
+            padding: 100px;
+        }
+
+        @mixin col ($width, $height, $bcolor) {
+            width: $width;
+            height: $height;
+            border: solid 3px $bcolor;
+        }
+
+        .colash1 {
+            @include col(400px, 250px, $red1)
+        }
+
+        .colash2 {
+            @include col(400px, 250px, $red2)
+        }
+
+        .colash3 {
+            @include col(400px, 250px, $red3)
+        }
+
+        .colash {
+            width: 50%;
+            padding: 50px;
+        }
+
+        .colash:hover {
+            .colash1 {
+                transform: translate(75px, 300px);
+                transition: 0.5s;
+            }
+
+            .colash2 {
+                transform: translate(-300px, 120px);
+                transition: 0.5s;
+            }
+
+            .colash3 {
+                transform: translate(75px, -10px);
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+.foto {
+    position: absolute;
+}
+
+.colash1 {
+    transition: 0.5s;
+    top: 140px;
+    right: 100px;
+}
+
+.colash2 {
+    transition: 0.5s;
+    top: 320px;
+    right: 150px;
+}
+
+.colash3 {
+    transition: 0.5s;
+    top: 170px;
+    right: 300px;
+}

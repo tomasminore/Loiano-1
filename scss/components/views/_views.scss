@@ -1,0 +1,127 @@
+@media only screen and (min-width:320px) and (max-width:479px) {
+    body {
+        .empresa {
+            padding-left: 10px;
+            font-size: 25px;
+            padding-top: 20px;
+        }
+
+        .nosotros {
+            margin: 0;
+            padding: 5px;
+        }
+        .trabajos{
+            font-size: 25px;
+            padding: 10px;
+        }
+        .cards{
+            flex-wrap: wrap;
+        }
+        .servicio {
+            grid-template-rows: 25px 1fr 1fr;
+            padding: 5px;
+            border: solid $red3 3px;
+            margin: 15px;
+            height: 300px;
+
+            h3 {
+                font-size: 25px;
+            }
+
+            .descripcion {
+                padding: 5px;
+                font-size: 16px;
+                overflow: scroll;
+
+            }
+        }
+        .formulario{
+            border: 5px $red1 inset;
+            font-size: 18px;
+            padding: 5px;
+        }
+
+        header {
+            div {
+                padding: 5px;
+
+                .loiano {
+                    font-size: 25px;
+                    padding-left: 15px;
+                }
+
+                .subtitulo {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        section {
+            .inicio {
+                padding: 15px;
+            }
+
+            .jumbotron1 {
+                padding: 25px;
+                width: 100%;
+            }
+
+            .historia {
+                font-size: 16px;
+                line-height: 40px;
+                padding: 10px;
+                width: 100%;
+            }
+
+            .hist1 {
+                width: 150px;
+                height: 100px;
+            }
+            .card{
+                height: 100%;
+                width: 100%;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin: 10px;
+            }
+            .card-img-top{
+                height: 100%;
+                width: 100%;
+            }
+            .titulo1 {
+                font-size: 30px;
+                padding: 15px;
+            }
+
+            // No puedo hacer que los iconos de redes se achiquen
+            .links {
+                font-size: 2px;
+                padding: 8px;
+            }
+
+            div {
+                .logo {
+                    height: 100px;
+                    width: 75px;
+                    margin: 15px;
+                }
+
+                .tigre {
+                    width: 250px;
+                }
+            }
+
+
+            // No puedo hacer que las imagenes del colash se achiquen
+
+        }
+
+        footer {
+            .horario {
+                font-size: 20px;
+                padding: 20px;
+            }
+        }
+
+    }
+}

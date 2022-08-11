@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Sitio Web de Loiano Telas & Obras, empresa de servicio de sublimacion y carteleria">
+    <meta name="keywords" content="TELA, SUBLIMACION, CARTELERIA, STANDS, BANDERAS">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--ICONOS FOOTER-->
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Oswald&family=Poppins:wght@100&display=swap"
+        rel="stylesheet">
+    <!--TIPOGRAFIA FOOTER-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">
+    <!--TIPOGRAFIA HEADER-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--BOOTSRAP-->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Contacto</title>
+</head>
+
+
+<body>
+    <header class="navbar sticky-top navbar-expand-lg navbar-dark bg-gray">
+        <!--TITULO Y SUBTITULO-->
+        <div class="container-fluid">
+            <h1><a class="navbar-brand loiano animate_animated animate_fadeInLeft" href="../index.html">Loiano <span
+                        class="subtitulo">Telas & Obras</span></a></h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--BARRA DE NAVEGACION: Quiero hacer que la barra este a la derecha y el titulo a la izquierda, no encontre la manera de ajustarlo desde bootstrap-->
+            <nav class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animate__animated animate__fadeInLeft animate__delay-3s"
+                            href="./TrabajosRealizados.html">Trabajos realizados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./Contacto.html">Contacto
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form class="formulario">
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4" class="campo">Nombre/Empresa</label>
+                <input type="email" class="form-control marco" id="inputEmail4">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputEmail4" class="campo">Celular</label>
+                <input type="email" class="form-control marco" id="inputEmail4">
+            </div>
+        </div>
+        <div class="form-group col-md-13">
+            <label for="inputEmail4" class="campo">Email</label>
+            <input type="email" class="form-control marco" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1" class="campo">Explique detalladamente el trabajo</label>
+            <textarea class="form-control marco" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlFile1" class="campo">Suba sus archivos</label><br>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+    </form>
+    <!--FOOTER: Hay unas rallitas azules chiquitas entre los iconos que no se de donde salen ni como sacarlas-->
+    <footer class="footer">
+        <a href="https://wa.me/541162732415" target="_blank">
+            <i class="fa-brands fa-whatsapp links--link1"></i>
+        </a>
+        <a href="https://www.instagram.com/loianotelasyobras/" target="_blank">
+            <i class="fa-brands fa-instagram links--link2" id="#450"></i>
+        </a>
+        <a href="https://www.facebook.com/LoianoTelasyObras/" target="_blank">
+            <i class="fa-brands fa-facebook links--link3" id="#450"></i>
+        </a>
+        <a href="https://goo.gl/maps/TAmwhjGMnsCvH9ia9" target="_blank">
+            <i class="fa-solid fa-location-dot links--link4"></i>
+        </a>
+        <p class="horario">Lunes a Viernes 8:00 - 12:00 / 14:00 - 17:00</p>
+    </footer>
+    <!--Fin FOOTER-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

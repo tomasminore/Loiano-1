@@ -1,0 +1,30 @@
+    .animate__animated.animate__fadeInLeft {
+        --animate-delay: 0.7s;
+    }
+
+    header {
+        font-size: 25px;
+        width: 100%;
+            div {
+            padding: 20px;
+            width: 100%;
+
+            .loiano {
+                font-family: $tipografia2;
+                color: $red1;
+                font-size: 50px;
+                padding-left: 30px;
+                text-shadow: 5px 5px 10px black;
+            }
+
+            .subtitulo {
+                color: white;
+                font-size: 25px;
+            }
+        }
+    }
+
+    header:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: all 1s;
+    }
